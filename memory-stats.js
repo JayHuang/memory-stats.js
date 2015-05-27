@@ -21,13 +21,13 @@ var MemoryStats = function (){
 
 	var msText	= document.createElement( 'div' );
 	msText.id	= 'msText';
-	msText.style.cssText = 'color:#0f0;font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
+	msText.style.cssText = 'color:rgb(0, 150, 255);font-family:Helvetica,Arial,sans-serif;font-size:9px;font-weight:bold;line-height:15px';
 	msText.innerHTML= 'Memory';
 	msDiv.appendChild( msText );
 
 	var msGraph	= document.createElement( 'div' );
 	msGraph.id	= 'msGraph';
-	msGraph.style.cssText = 'position:relative;width:74px;height:' + GRAPH_HEIGHT + 'px;background-color:#0f0';
+	msGraph.style.cssText = 'position:relative;width:74px;height:' + GRAPH_HEIGHT + 'px;background-color:rgb(0, 150, 255)';
 	msDiv.appendChild( msGraph );
 
 	while ( msGraph.children.length < 74 ) {
